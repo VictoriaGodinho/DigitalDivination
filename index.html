@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Where Should We Eat?</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Ask the Universe: Where Should We Eat?</h1>
+    <form id="quizForm">
+      <label>What kind of atmosphere are you seeking?
+        <select name="atmosphere">
+          <option value="loud">Loud and lively</option>
+          <option value="quiet">Quiet and cozy</option>
+          <option value="trendy">Trendy and upbeat</option>
+          <option value="calm">Calm and natural</option>
+        </select>
+      </label>
+
+      <label>What type of food are you in the mood for?
+        <select name="cuisine">
+          <option value="italian">Italian</option>
+          <option value="japanese">Japanese</option>
+          <option value="mexican">Mexican</option>
+          <option value="american">American</option>
+          <option value="vegan">Vegan</option>
+        </select>
+      </label>
+
+      <label>Formality?
+        <select name="formality">
+          <option value="formal">Formal</option>
+          <option value="casual">Casual</option>
+          <option value="in-between">In-between</option>
+        </select>
+      </label>
+
+      <label>How far are you willing to travel?
+        <select name="distance">
+          <option value="nearby">Nearby</option>
+          <option value="moderate">Moderate distance</option>
+          <option value="far">Anywhere in the city</option>
+        </select>
+      </label>
+
+      <button type="submit">Reveal My Sign</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Your Divine Recommendation:</h2>
+      <p id="restaurantName"></p>
+      <p id="restaurantDesc"></p>
+      <p id="restaurantAddress"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

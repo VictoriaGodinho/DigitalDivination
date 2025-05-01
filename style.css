@@ -1,0 +1,42 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #fce4ec;
+    color: #4a148c;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  select, button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #ba68c8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
