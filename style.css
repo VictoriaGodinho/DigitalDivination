@@ -1,0 +1,103 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fce4ec;
+  color: #4a148c;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+button {
+  background-color: #ba68c8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9c27b0;
+}
+
+.audio-choice {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.audio-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.audio-button audio {
+  margin-top: 0.5rem;
+}
+
+.food-choice {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.food-option {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.food-option.selected {
+  border-color: #ba68c8;
+}
+
+.food-option img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slider-wrapper {
+  margin: 2rem 0;
+}
+
+input[type=range] {
+  width: 100%;
+  accent-color: #ba68c8;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
