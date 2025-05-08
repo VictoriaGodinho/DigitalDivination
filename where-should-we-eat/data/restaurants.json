@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Tranquil Garden Café",
+      "cuisine": "vegan",
+      "atmosphere": "calm",
+      "formality": "casual",
+      "distance": "nearby",
+      "description": "A peaceful vegan café surrounded by plants and gentle music.",
+      "address": "123 Peaceful Lane"
+    },
+    {
+      "name": "El Fuego Fiesta",
+      "cuisine": "mexican",
+      "atmosphere": "loud",
+      "formality": "casual",
+      "distance": "moderate",
+      "description": "Lively Mexican eatery with bold flavors and festive vibes.",
+      "address": "456 Taco Street"
+    }
+    // Add more restaurants as needed
+  ]
+  
